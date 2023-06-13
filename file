@@ -1,0 +1,10 @@
+# enter the amount
+principle = float(input("Enter principle amt:"))
+# enter rate of interest
+interest = float(input("Enter interest rate:"))
+# enter the number of years
+time = float(input("Enter Time:"))
+
+# calculate the simple interest SI=(PRT/100)
+si = (principle * interest * time)/100
+print(si)
